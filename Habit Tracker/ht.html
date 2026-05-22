@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Habit Tracker</title>
+  <link rel="stylesheet" href="style.css">
+   <script src="script.js"></script>
+</head>
+<body>
+
+  <div class="container">
+    <h1>My Habit Tracker!!!</h1>
+
+    <div class="input-section">
+      <input type="text" id="habitInput" placeholder="Enter habit...">
+      <button onclick="addHabit()">Add</button>
+    </div>
+
+    <div class="week-nav">
+      <button onclick="changeWeek(-1)">← Prev</button>
+      <button onclick="goToCurrentWeek()">This Week</button>
+      <button onclick="changeWeek(1)">Next →</button>
+    </div>
+
+    <table id="habitTable">
+      <thead>
+        <tr id="daysRow">
+          <th>Habit</th>
+        </tr>
+      </thead>
+      <tbody id="habitBody"></tbody>
+    </table>
+
+    <p id="emptyState">No habits yet. Add one!</p>
+  </div>
+</body>
+</html>
