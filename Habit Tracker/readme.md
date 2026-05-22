@@ -1,4 +1,4 @@
-# Habit Tracker
+# My Habit Tracker
 
 A simple single-page Habit Tracker web app that helps users build daily habits, track weekly progress, and maintain streaks.
 
